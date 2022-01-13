@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F87E19"
+    tools:context=".intro">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="660dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="50dp"
+
+        android:background="@drawable/design2"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="78dp"
+            android:background="#8b6317"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Order Form"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#8b6317"
+            android:padding="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="16dp"
+            android:background="#8b6317"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toppings"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:textSize="18sp"
+            android:textColor="#8b6317"
+            android:padding="5dp"
+            android:layout_marginTop="0dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-8dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="78dp"
+                android:text="Onions and Pepper"
+                android:textColor="#8b6317"
+                android:textSize="15sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text=" +$"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="45"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="-5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="109dp"
+                android:text="Quantity"
+                android:paddingTop="4dp"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design3"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text=" -  |"
+                    android:id="@+id/sub"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="1"
+                    android:id="@+id/add_sub"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="|  +   "
+                    android:id="@+id/add"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#8b6317"
+                android:layout_marginLeft="78dp"
+                android:text="Pepperoni"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text=" +$"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="30"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="-5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="109dp"
+                android:text="Quantity"
+                android:paddingTop="4dp"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design3"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text=" -  |"
+                    android:id="@+id/sub1"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="1"
+                    android:id="@+id/add_sub1"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="|  +   "
+                    android:id="@+id/add1"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#8b6317"
+                android:layout_marginLeft="78dp"
+                android:text="Sausage"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text=" +$"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="50"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="-5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="109dp"
+                android:text="Quantity"
+                android:paddingTop="4dp"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design3"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text=" -  |"
+                    android:id="@+id/sub2"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="1"
+                    android:id="@+id/add_sub2"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="|  +   "
+                    android:id="@+id/add2"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:orientation="horizontal">
+            <CheckBox
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#8b6317"
+                android:layout_marginLeft="78dp"
+                android:text="Cheese"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text=" +$"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:text="40"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginTop="-5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="109dp"
+                android:text="Quantity"
+                android:paddingTop="4dp"
+                android:textColor="#8b6317"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/design3"
+                android:layout_marginLeft="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text=" -  |"
+                    android:id="@+id/sub3"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="1"
+                    android:id="@+id/add_sub3"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="|  +   "
+                    android:id="@+id/add3"
+                    android:textColor="#8b6317"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:textSize="18sp"
+            android:textColor="#8b6317"
+            android:padding="5dp"
+            android:layout_marginTop="0dp"
+            />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="106dp"
+            android:layout_marginLeft="78dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:text="Cash on Delivery/Pick-up"
+                android:textColor="#8b6317"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:text="Credit Card"
+                android:textColor="#8b6317"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:text="Mpesa"
+                android:textColor="#8b6317"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#8b6317"
+            android:shadowRadius="10"
+            android:shadowColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:paddingHorizontal="78dp"
+            android:text="Submit"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="129dp"
+        android:layout_height="101dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="220dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#8b6317"
+            android:textStyle="bold"
+            android:text="Total"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#8b6317"
+            android:padding="5dp"
+            android:id="@+id/total"
+            android:text="$280"/>
+    </LinearLayout>
+</RelativeLayout>

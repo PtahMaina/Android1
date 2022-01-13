@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "62993319931",
+    "project_id": "semproject-f3539",
+    "storage_bucket": "semproject-f3539.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62993319931:android:5b62c4f653aba2c08c2d5e",
+        "android_client_info": {
+          "package_name": "com.example.semproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62993319931-qpfgdoanglclmoq0vciqmo2i91n711ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJnS9hPDhgvEkkfllOAUJxRzkmQoBx9io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62993319931-qpfgdoanglclmoq0vciqmo2i91n711ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

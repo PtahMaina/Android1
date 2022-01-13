@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "147850862734",
+    "firebase_url": "https://raze-bfaba-default-rtdb.firebaseio.com",
+    "project_id": "raze-bfaba",
+    "storage_bucket": "raze-bfaba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147850862734:android:3dd22b835541c4d28e69df",
+        "android_client_info": {
+          "package_name": "com.example.semproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147850862734-c3i6ukh00cgrnpntcn435bmh2f1r8rrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeca2PtHm4qXYbBcinf24Bj9vm_9PmEh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147850862734-c3i6ukh00cgrnpntcn435bmh2f1r8rrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147850862734:android:352980aa287382ed8e69df",
+        "android_client_info": {
+          "package_name": "com.example.semproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147850862734-c3i6ukh00cgrnpntcn435bmh2f1r8rrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeca2PtHm4qXYbBcinf24Bj9vm_9PmEh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147850862734-c3i6ukh00cgrnpntcn435bmh2f1r8rrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

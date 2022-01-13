@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cart">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F87E19"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            android:id="@+id/ar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken Point"
+            android:textSize="24sp"
+            android:layout_marginLeft="50dp"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+
+        android:id="@+id/rec"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="CLEAR CART "
+            android:textColor="#F87E19"
+            android:id="@+id/clear"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$"
+            android:textStyle="bold"
+            android:layout_marginLeft="200dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+        <TextView
+            android:id="@+id/overallprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="567"
+            android:layout_marginLeft="0dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#F87E19"
+        android:padding="3dp"
+        android:text="Check out"
+        android:id="@+id/checkout"
+        />
+</LinearLayout>

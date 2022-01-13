@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".post">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Admin Uploading"
+                android:id="@+id/textview"
+                android:textStyle="bold"
+                android:textSize="26dp"
+                android:textColor="#DF6D0B"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:id="@+id/ShowImageView"
+                android:layout_below="@+id/textview"
+                android:src="@drawable/f1"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/ButtonChooseImage"
+                android:layout_width="212dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rel"
+                android:text="Choose food image"
+                android:textAlignment="center" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/simpleSpinner"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="category"
+                    android:id="@+id/categ"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ImageNameEditText"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:hint="Enter Food Name"
+                android:padding="20dp" />
+            <EditText
+                android:id="@+id/menus"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ButtonChooseImage"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:layout_marginLeft="20dp"
+                android:hint="Enter number of menus"
+                android:padding="20dp" />
+            <EditText
+                android:id="@+id/prices"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:layout_marginLeft="20dp"
+                android:hint="Enter food price"
+                android:padding="20dp" />
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:layout_marginLeft="20dp"
+                android:hint="Enter food Quantity in grams"
+                android:padding="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Ingredients"
+                android:id="@+id/ingredients"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:drawablePadding="12dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="30dp"
+                android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24" />
+
+
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:inputType="text"
+                android:layout_marginLeft="20dp"
+                android:hint="Enter food description"
+                android:padding="20dp" />
+
+
+
+
+            <Button
+                android:id="@+id/ButtonUploadImage"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rel"
+                android:text="Upload" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
